@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+
+    <canvas id="test" width="200" height="200"></canvas>
+
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" height="190">
+        <polygon points="100,10 40,180 190,60 10,60 160,180"
+                 style="fill:lime;stroke:purple;stroke-width:5;fill-rule:evenodd;" />
+    </svg>
+
+    <script type="text/javascript">
+
+
+        var canvas=document.getElementById("test");
+        var cxt=canvas.getContext("2d");
+
+        //画一个宽150 高75矩形
+        // cxt.fillStyle="#ff0000";
+        // cxt.fillRect(0,0,150,75);
+
+        //画一个三角形
+        // cxt.moveTo(10,10);
+        // cxt.lineTo(150,50);
+        // cxt.lineTo(10,50);
+        // cxt.stroke();
+
+        //画一个弧度形成圆
+        // cxt.fillStyle="#FF0000";
+        // cxt.beginPath();
+        // cxt.arc(70,18,15,0,Math.PI*2,true);
+        // cxt.closePath();
+        // cxt.fill();
+
+        //实现渐变色
+        // var grid=cxt.createLinearGradient(0,0,175,50);//在指定区域进行线性渐变
+        // grid.addColorStop(0,"#FF0000")//开始颜色
+        // grid.addColorStop(1,"#00ff00");//结束颜色
+        // cxt.fillStyle=grid;
+        // cxt.fillRect(0,0,150,75);
+
+
+        //图片本地或网络
+        // var img=new Image();//新建标签
+        // img.src="http://www.w3school.com.cn/i/ct_html5_canvas_image.gif";
+        // cxt.drawImage(img,0,0);
+
+
+
+    </script>
+
+</body>
+</html>
