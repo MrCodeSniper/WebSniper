@@ -6,8 +6,8 @@
 </head>
 <body>
 
-
-<form>
+<!--指定服务器脚本来提交表单 input必须有name属性才会被提交-->
+<form action="JS.html" method="GET" target="_blank" autocomplete="off" novalidate enctype="application/x-www-form-urlencoded">
 
     FirstName:<br/>
     <input type="text" name="firstname"><br/>
@@ -16,6 +16,55 @@
     <!--默认选中-->
     <input type="radio" name="sex" value="男" checked>男
     <input type="radio" name="sex" value="女" >女
+    <br/>
+    <input type="submit" value="Submit">
+    <br/>
+    你的爱好是
+    <!--下拉选项框-->
+    <select>
+
+        <option value="Soccer">足球</option>
+        <option value="Basket">篮球</option>
+        <option value="Swim">游泳</option>
+        <option value="Gaming">游戏</option>
+        <option value="Reading">读书</option>
+
+    </select>
+
+    <br/>
+
+    <!--文本输入框-->
+    <textarea name="message" rows="10" cols="30">
+The cat was playing in the garden.
+    </textarea>
+    <br/>
+
+    <button type="button" onclick="alert('xxxx')">ClickMe!</button>
+
+
+    <input list="browsers">
+    <datalist id="browsers">
+        <option value="Internet Explorer">
+        <option value="Firefox">
+        <option value="Chrome">
+        <option value="Opera">
+        <option value="Safari">
+    </datalist>
+
+    <br/>
+
+
+    <input type="password"> <br/>
+
+    <!--多选框-->
+    <input type="checkbox" name="sample" value="bike">Bike <br/>
+    <input type="checkbox" name="sample" value="car">Car <br/>
+
+
+
+
+
+
 
 </form>
 
