@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+    <a id="test"></a>
+
+
+  <script type="text/javascript">
+
+
+      localStorage.setItem("key","value");
+      document.getElementById("test").innerHTML=localStorage.getItem("key");
+
+      localStorage.removeItem("key");//类似android里的SP
+
+      // session只对其本身对象存数据 关闭标签数据就删除
+
+      sessionStorage.setItem("key","test");
+
+  </script>
+
+</body>
+</html>

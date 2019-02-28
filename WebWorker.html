@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<a id="test"></a>
+
+
+
+
+<script type="text/javascript">
+
+    var w=new Worker("/demo.js");
+    w.onmessage =function (event) {
+        document.getElementById("test").innerHTML=event.data;
+    }
+
+</script>
+
+
+
+</body>
+</html>
