@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55876fd1-8941-49b1-8b4c-6aae9f4d1262" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/HTML本地存储.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebWorker.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/CssFoundation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/具体CSS样式.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/外部样式表.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bootstrap.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Bootstrap.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Canvas.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Canvas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChapterOne.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/ChapterOne.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChapterTwo.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/ChapterTwo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/JS.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Responsive Web Design.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Responsive Web Design.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/多媒体.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/多媒体.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,9 +27,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ChapterOne.html">
+        <entry file="file://$PROJECT_DIR$/html/ChapterOne.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="736">
+            <state>
               <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
               <folding>
                 <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -34,46 +42,49 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JS.html">
+        <entry file="file://$PROJECT_DIR$/html/JS.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
+            <state>
               <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/form.html">
+        <entry file="file://$PROJECT_DIR$/html/form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="-8">
+              <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTML本地存储.html">
+        <entry file="file://$PROJECT_DIR$/css/CssFoundation.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+            <state relative-caret-position="646">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+              <folding>
+                <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/WebWorker.html">
+        <entry file="file://$PROJECT_DIR$/css/具体CSS样式.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+            <state relative-caret-position="425">
+              <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo.js">
+        <entry file="file://$PROJECT_DIR$/css/外部样式表.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="17">
+              <caret line="1" column="37" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -83,6 +94,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
@@ -100,9 +112,9 @@
         <option value="$PROJECT_DIR$/ChapterTwo.html" />
         <option value="$PROJECT_DIR$/JS.html" />
         <option value="$PROJECT_DIR$/form.html" />
-        <option value="$PROJECT_DIR$/HTML本地存储.html" />
-        <option value="$PROJECT_DIR$/demo.js" />
-        <option value="$PROJECT_DIR$/WebWorker.html" />
+        <option value="$PROJECT_DIR$/css/外部样式表.css" />
+        <option value="$PROJECT_DIR$/css/CssFoundation.html" />
+        <option value="$PROJECT_DIR$/css/具体CSS样式.html" />
       </list>
     </option>
   </component>
@@ -124,8 +136,13 @@
         <subPane>
           <expand>
             <path>
-              <item name="html" type="b2602c69:ProjectViewProjectNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="WebAll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAll" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAll" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -138,7 +155,13 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\WebAll\html" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -165,16 +188,16 @@
       <workItem from="1550840709683" duration="5884000" />
       <workItem from="1550904603445" duration="2091000" />
       <workItem from="1550979730556" duration="1654000" />
-      <workItem from="1551178662731" duration="113000" />
-      <workItem from="1551249659090" duration="2760000" />
+      <workItem from="1551545782924" duration="1556000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18382000" />
+    <option name="totallyTimeSpent" value="17065000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="260" y="25" width="1400" height="1000" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496329" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -199,30 +222,30 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Responsive Web Design.html">
+    <entry file="file://$PROJECT_DIR$/html/Responsive Web Design.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bootstrap.html">
+    <entry file="file://$PROJECT_DIR$/html/Bootstrap.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ChapterTwo.html">
+    <entry file="file://$PROJECT_DIR$/html/ChapterTwo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ChapterOne.html">
+    <entry file="file://$PROJECT_DIR$/html/ChapterOne.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
+        <state>
           <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
           <folding>
             <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -233,38 +256,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JS.html">
+    <entry file="file://$PROJECT_DIR$/html/JS.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
+        <state>
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/form.html">
+    <entry file="file://$PROJECT_DIR$/html/form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="-8">
+          <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML本地存储.html">
+    <entry file="file://$PROJECT_DIR$/css/外部样式表.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+        <state relative-caret-position="17">
+          <caret line="1" column="37" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo.js">
+    <entry file="file://$PROJECT_DIR$/css/CssFoundation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="646">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebWorker.html">
+    <entry file="file://$PROJECT_DIR$/css/具体CSS样式.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        <state relative-caret-position="425">
+          <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
         </state>
       </provider>
     </entry>
