@@ -13,11 +13,42 @@
             color: #333333;
         }
 
-        /*Class选择器*/
+        /*标签选择器*/
         p {
             color: aqua;
         }
 
+
+        /*派生选择器 上下文 层级关系*/
+        li strong{
+            color: red;
+        }
+
+        /*类选择器*/
+        .test_class {
+            color: firebrick;
+        }
+
+
+        /*属性选择器*/
+        [title] {
+            color: aquamarine;
+        }
+
+        /*具体属性选择器*/
+        [title=yyy] {
+            color: wheat;
+        }
+
+        /*包含属性选择器 y与其他元素用空格分隔*/
+        [title~=y] {
+            color: cornflowerblue;
+        }
+
+        /*包含属性选择器 通过-分隔*/
+        [title|=yyyy] {
+            color: brown;
+        }
 
 
     </style>
@@ -31,11 +62,30 @@
 
    <a id="test">测试id选择器</a>
 
-   <p>测试Class选择器</p>
+   <p>测试标签选择器</p>
+
+   <p class="test_class">测试类选择器</p>
 
 
    <!--内联样式表-->
     <h1 style="color: blue">内联样式表</h1>
+
+
+   <p title="x y">测试属性选择器</p>
+   <p title="yy y">测试具体属性选择器</p>
+   <p title="yyyy">包含属性选择器2</p>
+
+
+    <ol>
+        <li>
+            <strong>测试1</strong>
+        </li>
+        <li>
+            <strong>测试2</strong>
+        </li>
+
+        <li>测试3</li>
+    </ol>
 
 </body>
 </html>
